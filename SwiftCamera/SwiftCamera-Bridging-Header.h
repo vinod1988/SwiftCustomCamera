@@ -9,5 +9,6 @@
 #ifndef SwiftCamera_Bridging_Header_h
 #define SwiftCamera_Bridging_Header_h
 
+#import "CameraSessionView.h"
 
 #endif /* SwiftCamera_Bridging_Header_h */

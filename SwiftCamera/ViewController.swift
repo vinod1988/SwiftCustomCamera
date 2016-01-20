@@ -20,6 +20,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func cameraAction(sender: AnyObject) {
+        let vc: CameraViewController  = self.storyboard?.instantiateViewControllerWithIdentifier("CameraViewController") as! CameraViewController
+        let navCon  =  UINavigationController.init(rootViewController: vc)
+//        self.navigationController?.pushViewController(vc, animated: true)
+        self.presentViewController(navCon, animated: true) { () -> Void in
+            
+        }
+
+    }
 
 }
 
